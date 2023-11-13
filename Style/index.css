@@ -665,6 +665,7 @@ div.navbarContainer a:active {
 }
 
 .containerTitle {
+  display: none;
   top: 0;
   position: relative;
   width: 100%;
