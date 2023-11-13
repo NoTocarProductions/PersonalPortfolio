@@ -3,11 +3,11 @@
 document.addEventListener("DOMContentLoaded", function () {
   const largeVideo = document.getElementById("video");
   const preloader = document.getElementById("preloader");
-
+  const toHideContainer = document.queryselector('.containerTitle');
   largeVideo.addEventListener("canplaythrough", function () {
     console.log("Video loaded");
     preloader.style.display = "none";
-    largeVideo.style.display = "block";
+    toHideContainer.style.display = "block";
   });
 });
 
