@@ -20,6 +20,55 @@
 
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@1&display=swap");
 
+.loading span {
+  display: inline-block;
+  vertical-align: middle;
+  width: .6em;
+  height: .6em;
+  margin: .19em;
+  background: #007DB6;
+  border-radius: .6em;
+  animation: loading 1s infinite alternate;
+}
+
+/*
+ * Dots Colors
+ * Smarter targeting vs nth-of-type?
+ */
+.loading span:nth-of-type(2) {
+  background: #8bb200;
+  animation-delay: 0.2s;
+}
+.loading span:nth-of-type(3) {
+  background: #9e9900;
+  animation-delay: 0.4s;
+}
+.loading span:nth-of-type(4) {
+  background: #8ba700;
+  animation-delay: 0.6s;
+}
+.loading span:nth-of-type(5) {
+  background: #b27d00;
+  animation-delay: 0.8s;
+}
+.loading span:nth-of-type(6) {
+  background: #b07e27;
+  animation-delay: 1.0s;
+}
+.loading span:nth-of-type(7) {
+  background: #b6561e;
+  animation-delay: 1.2s;
+}
+
+
+@keyframes loading {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 
 @keyframes foldOpen {
