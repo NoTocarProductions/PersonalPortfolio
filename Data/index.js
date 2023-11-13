@@ -1,15 +1,15 @@
 
 // PRELOADER 
-document.addEventListener("DOMContentLoaded", function () {
-  const largeVideo = document.getElementById("video");
-  const preloader = document.getElementById("preloader");
-  const toHideContainer = document.queryselector('.containerTitle');
-  largeVideo.addEventListener("canplaythrough", function () {
-    console.log("Video loaded");
-    preloader.style.display = "none";
-    toHideContainer.style.display = "block";
-  });
-});
+//document.addEventListener("DOMContentLoaded", function () {
+  //const largeVideo = document.getElementById("video");
+ // const preloader = document.getElementById("preloader");
+ // const toHideContainer = document.queryselector('.containerTitle');
+ // largeVideo.addEventListener("canplaythrough", function () {
+  //  console.log("Video loaded");
+  //  preloader.style.display = "none";
+  //  toHideContainer.style.display = "block";
+//  });
+//});
 
 // RESIZE TABLE AS SCREEN SHRINKS
 // ------------------------------------------------------
