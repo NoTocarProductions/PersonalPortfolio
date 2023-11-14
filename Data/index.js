@@ -1,15 +1,14 @@
 
 // PRELOADER 
-//document.addEventListener("DOMContentLoaded", function () {
-  //const largeVideo = document.getElementById("video");
- // const preloader = document.getElementById("preloader");
- // const toHideContainer = document.queryselector('.containerTitle');
- // largeVideo.addEventListener("canplaythrough", function () {
-  //  console.log("Video loaded");
-  //  preloader.style.display = "none";
-  //  toHideContainer.style.display = "block";
-//  });
-//});
+document.addEventListener("DOMContentLoaded", function() {
+  const preloader = document.getElementById("preloader");
+  const pageContent = document.getElementById("pageContent")
+
+  if (preloader) {
+      preloader.classList.add('hide');
+      pageContent.classList.remove('hide');
+  }
+});
 
 // RESIZE TABLE AS SCREEN SHRINKS
 // ------------------------------------------------------
