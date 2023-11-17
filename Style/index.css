@@ -684,7 +684,7 @@ div.navbarContainer a:active {
 video {
   position: absolute;
   z-index: -1;
-  object-fit: fill;
+  object-fit: cover;
   object-position: 40% 40%;
   height: 480px;
   width: 400px;
