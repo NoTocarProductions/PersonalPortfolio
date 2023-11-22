@@ -1169,6 +1169,11 @@ div.container-cases-title ul li {
   font-size: 16px;
   padding: 5px 0px;
 }
+div.container-NoTocarProductions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
 div.container-cases-list {
   display: flex;
   align-items: center;
