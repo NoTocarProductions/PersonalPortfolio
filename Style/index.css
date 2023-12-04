@@ -1412,6 +1412,7 @@ div.languages {
   display: flex;
   margin: 10rem auto;
 }
+
 .language1 {
   object-fit: none;
   margin-right: 3rem;
