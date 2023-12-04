@@ -1371,6 +1371,8 @@ img {
   background-size: 60%;
 }
 
+
+
 .btn-slide2 span.circle2 {
   background-color: #efa666;
 }
@@ -1401,4 +1403,17 @@ img {
 
 .btn-slide span.title-hover, .btn-slide2 span.title-hover2 {
   color: #fff;
+}
+
+
+div.languages {
+  height: 10rem;
+  width: 80%;
+  display: flex;
+  margin: 10rem auto;
+}
+.language1 {
+  object-fit: none;
+  margin-right: 3rem;
+  display: inline-block;
 }
