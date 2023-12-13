@@ -1405,16 +1405,16 @@ img {
   color: #fff;
 }
 
-
 div.languages {
   height: 10rem;
   width: 80%;
   display: flex;
   margin: 10rem auto;
+  flex-direction: row;
 }
-
 .language1 {
-  object-fit: none;
+  height: 8rem;
+  object-fit: 100%;
   margin-right: 3rem;
   display: inline-block;
 }
